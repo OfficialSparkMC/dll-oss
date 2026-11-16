@@ -40,3 +40,8 @@ docs/
 *.diff
 /.codex/
 /slides-demo/
+
+# Linux cross-build (build-linux.sh)
+build-linux-msvc/
+build-linux-clang/
+!cmake/linux-rc-enable.cmake
